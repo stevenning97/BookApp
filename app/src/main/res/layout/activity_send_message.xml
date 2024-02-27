@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendMessage">
+
+    <EditText
+        android:id="@+id/usernamemsg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/usernamemsgtxtfield"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sendMsgtxt"
+        android:layout_width="match_parent"
+        android:layout_height="329dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/sendMsgtxthint"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSendMess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/sendMsgbtn" />
+
+    <Button
+        android:id="@+id/btnPreviousToHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPrevious" />
+
+</LinearLayout>

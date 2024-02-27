@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrackerOptional">
+
+    <TextView
+        android:id="@+id/txtReadingTrackerOp"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/txtBooktracker"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnViewOweBook"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/btnViewOweBook"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnViewBookTracker"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/btnViewBooktracker"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAddBookTracker"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/btnAddBookTracer"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnHomeprevious"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/btnPrevious"
+        android:textSize="20sp" />
+</LinearLayout>

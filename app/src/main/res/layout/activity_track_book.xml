@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrackBook">
+
+    <TextView
+        android:id="@+id/txtBookTracker"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/txtBooktracker"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="@string/txtBookName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPageNum"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="@string/txtPageNum"
+        android:inputType="number"
+        tools:ignore="TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/btnSubmit"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCancelSub"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/btnCancelSub"
+        android:textSize="16sp" />
+
+</LinearLayout>

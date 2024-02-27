@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BorrowBook">
+
+    <TextView
+        android:id="@+id/txtBorrowPostalCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="95dp"
+        android:text="@string/txtPostalCode"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputPostalCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBorrowPostalCode" />
+
+    <Button
+        android:id="@+id/btnFindNearByBooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="165dp"
+        android:text="@string/txtBtnFind"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPostalCode" />
+
+    <RadioGroup
+        android:id="@+id/rdBtnGrpBorrowBook"
+        android:layout_width="350dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputPostalCode">
+
+        <RadioButton
+            android:id="@+id/rdbtnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtRdBtnShare"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtnRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtRdBtnRent"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtnGiveAway"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtRdBtnGiveAway"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

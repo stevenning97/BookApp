@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/txtName1"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/hintName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/hintAddess"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtPastalCode1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/hintEmail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtAge1"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/txtAge"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtInterest"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/txtInterest"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spInterest"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:entries="@array/txtInterest"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="@string/txtPassword"
+        android:importantForAutofill="no"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSave" />
+
+    <Button
+        android:id="@+id/btnCancelChange"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCancel" />
+
+</LinearLayout>

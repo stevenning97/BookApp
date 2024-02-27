@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Sharing Book</string>
+    <string name="welcome">Welcome to Book App</string>
+    <string name="txtRegister">Get early access</string>
+    <string name="txtLaunch">As soon as we launch we will let you know</string>
+    <string name="hintName">Enter your username</string>
+    <string name="hintUsername">Username</string>
+    <string name="hintEmail">Your email</string>
+    <string name="hintAddess">Your Postal code</string>
+    <string name="hintPassword">Enter your Password</string>
+    <string name="txtInterest">Your interest: </string>
+    <string name="txtAge">Your Age</string>
+    <string-array name="txtInterest">Your interest
+        <item>Nonfiction Books</item>
+        <item>Fiction Books</item>
+    </string-array>
+    <string name="txtConfirm">By clicking on the "send" button,
+        you consent to the processing of your personal data in accordance with
+        our personal data processing policy</string>
+    <string name="btnRegister">Register</string>
+    <string name="txtLogin">Login</string>
+    <string name="txtPassword">Password</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnCreateAccount">Create a Account</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnAdd">Add a book</string>
+    <string name="btnBorrow">Borrow a book</string>
+    <string name="btnReading">Reading tracker</string>
+    <string name="txtAddingbook">Add a Book</string>
+    <string name="txtBooktitle">Book Title</string>
+    <string name="txtAuthor">Author name</string>
+    <string name="txtPublisher">Publisher name</string>
+    <string name="txtPulication">Publication year</string>
+    <string name="lblShare">Share</string>
+    <string name="lblgiveaway">Give a way</string>
+    <string name="lblRent">Rent</string>
+    <string name="btnAddBook">Add</string>
+    <string name="txtUpdateBook">Update a Book</string>
+    <string name="txtBookName">Book name</string>
+    <string name="lblBorrow">Borrowed</string>
+    <string name="lblTaken">Taken</string>
+    <string name="btnUpdate">Update</string>
+    <string name="txtStatus">Book status</string>
+    <string name="txtAdvanceSearch">Advance Book Search</string>
+    <string name="txtISBN">ISBN</string>
+    <string name="txtKeyword">Keywords</string>
+    <string name="btnSearch">Search</string>
+    <string name="txtBy">By</string>
+    <string name="btnAddToCard">Add To Card</string>
+    <string name="btnForBorrow">Borrow</string>
+    <string name="txtPrice">Price: </string>
+    <string name="txtContentImages">Book picture</string>
+    <string name="txtConfirmPassword">Confirm Password</string>
+    <string name="error">Error</string>
+    <string name="invalid">Invalid input</string>
+    <string name="ok">Got it</string>
+    <string name="btnUpload">Upload Book Image</string>
+    <string name="imgBook">Book Image</string>
+    <string name="bookImageSmall">Book Image</string>
+    <string name="bookImgName">Book Image Name</string>
+    <string name="rentPrice">Enter Rent Amount</string>
+    <string name="btnSave">Update</string>
+    <string name="btnChangeProfile">Change Profile</string>
+    <string name="btnviewProfile">View Profile</string>
+    <string name="btnLogout">Logout</string>
+    <string name="errorChange">Change profile got error</string>
+    <string name="useExits">The user already exits</string>
+    <string name="btnVIewBooks">View My Book Details</string>
+    <string name="txtPostalCode">Please enter the postal code below:</string>
+    <string name="hintPostalCode">Postal Code</string>
+    <string name="txtBtnFind">FIND</string>
+    <string name="txtOwnerPrompt">Click on the desired book to get the owner\'s contact:</string>
+    <string name="txtOwnerList">Owner Contact:</string>
+    <string name="btnPickup">REQUEST FOR PICK UP</string>
+    <string name="txtLeaveMessage">Please mention the pick up time:</string>
+    <string name="txtRequestOwner">Request Owner</string>
+    <string name="txtWelcome">Welcome to BookBiz!</string>
+    <string name="btnPrevious">Previous</string>
+    <string name="empty_imageview">No_Data</string>
+    <string name="readmsgbtn">Read Message</string>
+    <string name="sendMsgbtn">Send Message</string>
+    <string name="usernamemsgtxtfield">To: </string>
+    <string name="sendMsgtxthint">Type message ...</string>
+    <string name="btnmsgcheck">Messaging</string>
+    <string name="txtBooktracker">Tracking Book</string>
+    <string name="txtYourBookName">Your book name</string>
+    <string name="txtPageNum">Page Number</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnCancelSub">Cancel</string>
+    <string name="btnViewOweBook">View your book</string>
+    <string name="btnViewBooktracker">View Book Tracker</string>
+    <string name="btnAddBookTracer">Add Book Tracker</string>
+    <string name="txtRdBtnShare">Share</string>
+    <string name="txtRdBtnRent">Rent</string>
+    <string name="txtRdBtnGiveAway">Give Away</string>
+
+</resources>
